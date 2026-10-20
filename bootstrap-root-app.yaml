@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/laxmanraouppada/monitoring-stg.git
     targetRevision: master
-    path: monitoring/bootstrap
+    path: bootstrap
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
