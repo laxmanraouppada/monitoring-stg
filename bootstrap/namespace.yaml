@@ -4,5 +4,5 @@ metadata:
   name: monitoring-stg
   labels:
     app.kubernetes.io/managed-by: argocd
-  #annotations:
-    #argocd.argoproj.io/sync-options: Prune=confirm
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=confirm
