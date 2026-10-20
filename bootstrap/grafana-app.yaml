@@ -15,7 +15,7 @@ spec:
         valueFiles:
           - $values/grafana/values.yaml
 
-    - repoURL: https://github.com/laxmanraouppada/argocd-demo.git
+    - repoURL: https://github.com/laxmanraouppada/monitoring-stg.git
       targetRevision: main
       ref: values
 
